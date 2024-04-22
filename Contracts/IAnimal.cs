@@ -4,5 +4,7 @@ namespace PreyPredator.Contracts
     {
         Position Position { get; }
         bool IsDead { get; set; }
+        void Move();
+        IAnimal TryBreed(); 
     }
 }
